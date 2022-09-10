@@ -31,3 +31,18 @@ button:hover {
 button:disabled {
   box-shadow: none;
 }
+#datetime-picker {
+  height: 40px;
+  min-width: 250px;
+  font-size: 16px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+}
+
+.field {
+  display: inline-block;
+  font-size: 30px;
+}
+.field:not(:first-child) {
+  margin-right: 10px;
+}
